@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SecretSanta",
   "resources": {
-    "hash": "sha256-CamHD+gcoW1z6uIHkFczzb2cdwRn3CVd76mHC2Zqyxg=",
+    "hash": "sha256-gAruw53Xyu3cvbToU/avG/e8UnViwWxovqkbw1x2TlE=",
     "jsModuleNative": {
       "dotnet.native.8.0.21.g9t4liych3.js": "sha256-9Fzd5We95Rp03dEKIAbYjPDR3eWyLbmjMlYStvxyiok="
     },
@@ -40,7 +40,7 @@
       "MimeMapping.wasm": "sha256-CMXcRIg84k7AstbhcD8rbnPKy2wa/gmsBD8gBgZP1c8=",
       "netstandard.wasm": "sha256-8xTgI8tUfD/sfJ5VLw2RzJND+UEfEsrsPXANzJmP3eY=",
       "Newtonsoft.Json.wasm": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
-      "SecretSanta.wasm": "sha256-XXn+PMaKFmsiGGGQKMKb/LoDr45t2EY08Vzoja4nAd0=",
+      "SecretSanta.wasm": "sha256-9e0Z1YbX7MozCRetDgw9qdvK4L75z+evmjKNlL+B3bQ=",
       "Supabase.Core.wasm": "sha256-jUEh1mM6mkGdyQrEwowAbpQ8R148PZIAUIOXn0mrgIA=",
       "Supabase.Functions.wasm": "sha256-i3baKTpUA4voBHgpG1KCEXhOQom7BsRz3N4FCywsZ6k=",
       "Supabase.Gotrue.wasm": "sha256-fIDLwe2YAl/vphQoUtljCM5aRD5nbL3EXYlszJRLyfw=",
@@ -75,7 +75,7 @@
       "System.Net.WebSockets.Client.wasm": "sha256-f9+rruV0gE6t54CFaKGynKYOvctyz0yy8ceZKdHg20M=",
       "System.Net.WebSockets.wasm": "sha256-rPQV+u9CEPIgzRbEZxAm7yLcyv95lg9Ww4tSzfNpL6Q=",
       "System.ObjectModel.wasm": "sha256-QWQoov9cXAFX4Ib0f/f0ayqw8RYXCAREIhFam5yxje8=",
-      "System.Private.CoreLib.wasm": "sha256-Q1w6ELHXH6QsA88UEqWS5zUGTTWaNtmPpTGUH+g5dno=",
+      "System.Private.CoreLib.wasm": "sha256-FqCdSL14JQz4ee4ApQFCmIv1RFJhR9OQORIT/WKDOzs=",
       "System.Private.Uri.wasm": "sha256-PrGLv3zoPHyKwYUik1am/aj2tCRGKcAT9pEgloBKDtA=",
       "System.Private.Xml.Linq.wasm": "sha256-ATEdo5z0FVuNWKF1s0f8AP6x0V0qHFkj6kZMkflXVq4=",
       "System.Private.Xml.wasm": "sha256-Vz9bPNCJywtgpBpHA45/XiJvpVwmCmHlobUk7ka0798=",
