@@ -17,17 +17,11 @@ html, body {
     --bs-gutter-x: 0;
 }
 
+select,
 button {
     width: 50vw;
     border: 2px solid #dddddd;
     border-radius: 8px;
-    background: #ffffff;
-    padding: 10px;
-}
-
-select {
-    width: 50vw;
-    border: 2px solid #dddddd;
     background: #ffffff;
     padding: 10px;
     transition: 0.2s;
