@@ -1,16 +1,85 @@
+select,
+::picker(select) {
+    appearance: base-select;
+}
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     overflow: hidden;
     margin: 0;
     min-height: 100%;
+    font-size: 24px;
 }
 
-.content {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+button {
+    width: 50vw;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 10px;
+}
+
+select {
+    width: 50vw;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+select::picker-icon {
+    color: #999999;
+    transition: 0.2s rotate;
+}
+select:open::picker-icon {
+    rotate: 180deg;
+}
+::picker(select) {
+    border: none;
+}
+
+option {
+    gap: 20px;
+    border: 2px solid #dddddd;
+    background: #eeeeee;
+    padding: 10px;
+    transition: 0.4s;
+}
+option:first-of-type {
+    border-radius: 8px 8px 0 0;
+}
+
+option:last-of-type {
+    border-radius: 0 0 8px 8px;
+}
+
+::picker(select) {
+    border-radius: 8px;
+}
+
+option:not(option:last-of-type) {
+    border-bottom: none;
+}
+option:nth-of-type(odd) {
+    background: white;
+}
+
+option:hover {
+    background: #444444;
+}
+::picker(select) {
+    opacity: 0;
+    transition: all 0.2s allow-discrete;
+}
+::picker(select):popover-open {
+    opacity: 1;
+}
+@starting-style {
+    ::picker(select):popover-open {
+        opacity: 0;
+    }
 }
 
 .loading-progress {
@@ -23,14 +92,14 @@ html, body {
 
     .loading-progress circle {
         fill: none;
-        stroke: #e0e0e0;
+        stroke: none;
         stroke-width: 0.6rem;
         transform-origin: 50% 50%;
         transform: rotate(-90deg);
     }
 
         .loading-progress circle:last-child {
-            stroke: #1b6ec2;
+            stroke: #000000;
             stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
             transition: stroke-dasharray 0.05s ease-in-out;
         }
