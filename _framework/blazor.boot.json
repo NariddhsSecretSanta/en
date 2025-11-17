@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SecretSanta",
   "resources": {
-    "hash": "sha256-RJosTcXUK2ALlwSJaEwh2MbqOSoxkRY6mhHfXWufYhY=",
+    "hash": "sha256-1WsLELQUZn5PmOHt1807TJfMiupU06jAOP19Rm8cDz8=",
     "jsModuleNative": {
       "dotnet.native.8.0.21.g9t4liych3.js": "sha256-9Fzd5We95Rp03dEKIAbYjPDR3eWyLbmjMlYStvxyiok="
     },
@@ -40,7 +40,7 @@
       "MimeMapping.wasm": "sha256-CMXcRIg84k7AstbhcD8rbnPKy2wa/gmsBD8gBgZP1c8=",
       "netstandard.wasm": "sha256-8xTgI8tUfD/sfJ5VLw2RzJND+UEfEsrsPXANzJmP3eY=",
       "Newtonsoft.Json.wasm": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
-      "SecretSanta.wasm": "sha256-1ybrQEzYPK/850K6btWIdQetgDIXDSdk75j4N6Fl/EE=",
+      "SecretSanta.wasm": "sha256-OaLnWcd8QM9XPZd4zyo3FZgnpgZH1MTh/AMx82PO5Rw=",
       "Supabase.Core.wasm": "sha256-jUEh1mM6mkGdyQrEwowAbpQ8R148PZIAUIOXn0mrgIA=",
       "Supabase.Functions.wasm": "sha256-i3baKTpUA4voBHgpG1KCEXhOQom7BsRz3N4FCywsZ6k=",
       "Supabase.Gotrue.wasm": "sha256-fIDLwe2YAl/vphQoUtljCM5aRD5nbL3EXYlszJRLyfw=",
